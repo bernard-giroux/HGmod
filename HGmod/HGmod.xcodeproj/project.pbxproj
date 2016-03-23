@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0DB7340B0EB3F3009D52A4 /* Messages.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0DB7320B0EB3F3009D52A4 /* Messages.h */; };
+		2B0DB7350B0EB3F3009D52A4 /* Messages.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DB7330B0EB3F3009D52A4 /* Messages.cc */; };
+		2B2FC6770D3D3EE700A654FA /* Granulo.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FC6760D3D3EE700A654FA /* Granulo.cc */; };
+		2B6F6D0A0B03BBAC00F08078 /* Krigeage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6F6D090B03BBAC00F08078 /* Krigeage.h */; };
+		2B9FA4460AD9D9A80037D31C /* structHGmod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA4450AD9D9A80037D31C /* structHGmod.h */; };
+		2B9FA4530AD9DA0B0037D31C /* MilieuPoreux.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA44A0AD9DA0B0037D31C /* MilieuPoreux.h */; };
+		2B9FA4540AD9DA0B0037D31C /* Covariance.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FA44B0AD9DA0B0037D31C /* Covariance.cc */; };
+		2B9FA4550AD9DA0B0037D31C /* Covariance.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA44C0AD9DA0B0037D31C /* Covariance.h */; };
+		2B9FA4560AD9DA0B0037D31C /* EntreeSortie.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FA44D0AD9DA0B0037D31C /* EntreeSortie.cc */; };
+		2B9FA4570AD9DA0B0037D31C /* Generateur.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA44E0AD9DA0B0037D31C /* Generateur.h */; };
+		2B9FA4590AD9DA0B0037D31C /* Geometrie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA4500AD9DA0B0037D31C /* Geometrie.h */; };
+		2B9FA45A0AD9DA0B0037D31C /* Grille.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FA4510AD9DA0B0037D31C /* Grille.cc */; };
+		2B9FA45B0AD9DA0B0037D31C /* Grille.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA4520AD9DA0B0037D31C /* Grille.h */; };
+		2B9FA4620AD9DA3A0037D31C /* ModelesMelange.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA45C0AD9DA3A0037D31C /* ModelesMelange.h */; };
+		2B9FA4630AD9DA3A0037D31C /* HGmod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA45D0AD9DA3A0037D31C /* HGmod.h */; };
+		2B9FA4640AD9DA3A0037D31C /* Powell_def.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA45E0AD9DA3A0037D31C /* Powell_def.h */; };
+		2B9FA4650AD9DA3A0037D31C /* Powell_inst.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FA45F0AD9DA3A0037D31C /* Powell_inst.cc */; };
+		2B9FA4660AD9DA3A0037D31C /* Powell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA4600AD9DA3A0037D31C /* Powell.h */; };
+		2B9FA4670AD9DA3A0037D31C /* Pride.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9FA4610AD9DA3A0037D31C /* Pride.h */; };
+		2BB5E92F0AE8551F004DD643 /* enum_bg.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BB5E92E0AE8551F004DD643 /* enum_bg.h */; };
+		2BB5E9320AE8554A004DD643 /* constantes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BB5E9310AE8554A004DD643 /* constantes.h */; };
+		2BB5E9340AE8555E004DD643 /* utils_bg.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BB5E9330AE8555E004DD643 /* utils_bg.h */; };
+		2BB5E93D0AE855A0004DD643 /* utils_bg_fct.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BB5E93C0AE855A0004DD643 /* utils_bg_fct.h */; };
+		2BB5E9480AE856DD004DD643 /* utils_bg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5E9470AE856DD004DD643 /* utils_bg.cc */; };
+		8DD76F650486A84900D96B5E /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cc */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				2B9FA4460AD9D9A80037D31C /* structHGmod.h in CopyFiles */,
+				2B9FA4530AD9DA0B0037D31C /* MilieuPoreux.h in CopyFiles */,
+				2B9FA4550AD9DA0B0037D31C /* Covariance.h in CopyFiles */,
+				2B9FA4570AD9DA0B0037D31C /* Generateur.h in CopyFiles */,
+				2B9FA4590AD9DA0B0037D31C /* Geometrie.h in CopyFiles */,
+				2B9FA45B0AD9DA0B0037D31C /* Grille.h in CopyFiles */,
+				2B9FA4620AD9DA3A0037D31C /* ModelesMelange.h in CopyFiles */,
+				2B9FA4630AD9DA3A0037D31C /* HGmod.h in CopyFiles */,
+				2B9FA4640AD9DA3A0037D31C /* Powell_def.h in CopyFiles */,
+				2B9FA4660AD9DA3A0037D31C /* Powell.h in CopyFiles */,
+				2B9FA4670AD9DA3A0037D31C /* Pride.h in CopyFiles */,
+				2BB5E92F0AE8551F004DD643 /* enum_bg.h in CopyFiles */,
+				2BB5E9320AE8554A004DD643 /* constantes.h in CopyFiles */,
+				2BB5E9340AE8555E004DD643 /* utils_bg.h in CopyFiles */,
+				2BB5E93D0AE855A0004DD643 /* utils_bg_fct.h in CopyFiles */,
+				2B6F6D0A0B03BBAC00F08078 /* Krigeage.h in CopyFiles */,
+				2B0DB7340B0EB3F3009D52A4 /* Messages.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		2B0DB7320B0EB3F3009D52A4 /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
+		2B0DB7330B0EB3F3009D52A4 /* Messages.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Messages.cc; sourceTree = "<group>"; };
+		2B2FC6740D3D32F500A654FA /* Granulo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Granulo.h; sourceTree = "<group>"; };
+		2B2FC6760D3D3EE700A654FA /* Granulo.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Granulo.cc; sourceTree = "<group>"; };
+		2B3417300D41427500EEB5D5 /* Fluide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fluide.h; sourceTree = "<group>"; };
+		2B6F6D090B03BBAC00F08078 /* Krigeage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Krigeage.h; sourceTree = "<group>"; };
+		2B9FA4450AD9D9A80037D31C /* structHGmod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = structHGmod.h; sourceTree = "<group>"; };
+		2B9FA44A0AD9DA0B0037D31C /* MilieuPoreux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = MilieuPoreux.h; sourceTree = "<group>"; };
+		2B9FA44B0AD9DA0B0037D31C /* Covariance.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Covariance.cc; sourceTree = "<group>"; };
+		2B9FA44C0AD9DA0B0037D31C /* Covariance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; languageSpecificationIdentifier = c.cpp; path = Covariance.h; sourceTree = "<group>"; };
+		2B9FA44D0AD9DA0B0037D31C /* EntreeSortie.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntreeSortie.cc; sourceTree = "<group>"; };
+		2B9FA44E0AD9DA0B0037D31C /* Generateur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Generateur.h; sourceTree = "<group>"; };
+		2B9FA4500AD9DA0B0037D31C /* Geometrie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Geometrie.h; sourceTree = "<group>"; };
+		2B9FA4510AD9DA0B0037D31C /* Grille.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Grille.cc; sourceTree = "<group>"; };
+		2B9FA4520AD9DA0B0037D31C /* Grille.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; languageSpecificationIdentifier = c.cpp; path = Grille.h; sourceTree = "<group>"; };
+		2B9FA45C0AD9DA3A0037D31C /* ModelesMelange.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = ModelesMelange.h; sourceTree = "<group>"; };
+		2B9FA45D0AD9DA3A0037D31C /* HGmod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = HGmod.h; sourceTree = "<group>"; };
+		2B9FA45E0AD9DA3A0037D31C /* Powell_def.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Powell_def.h; sourceTree = "<group>"; };
+		2B9FA45F0AD9DA3A0037D31C /* Powell_inst.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Powell_inst.cc; sourceTree = "<group>"; };
+		2B9FA4600AD9DA3A0037D31C /* Powell.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Powell.h; sourceTree = "<group>"; };
+		2B9FA4610AD9DA3A0037D31C /* Pride.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Pride.h; sourceTree = "<group>"; };
+		2BB5E92E0AE8551F004DD643 /* enum_bg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = enum_bg.h; sourceTree = "<group>"; };
+		2BB5E9310AE8554A004DD643 /* constantes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = constantes.h; sourceTree = "<group>"; };
+		2BB5E9330AE8555E004DD643 /* utils_bg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = utils_bg.h; sourceTree = "<group>"; };
+		2BB5E93C0AE855A0004DD643 /* utils_bg_fct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = utils_bg_fct.h; sourceTree = "<group>"; };
+		2BB5E9470AE856DD004DD643 /* utils_bg.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils_bg.cc; sourceTree = "<group>"; };
+		2BD9CCA10D42EF13009A9C23 /* Lima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lima.h; sourceTree = "<group>"; };
+		2BDE74060D4534550045B80A /* Revil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Revil.h; sourceTree = "<group>"; };
+		2BED3E241656F07400A8E91C /* Raymer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Raymer.h; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* HGmod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HGmod; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* HGmod */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = HGmod;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2BB5E9310AE8554A004DD643 /* constantes.h */,
+				2B9FA44B0AD9DA0B0037D31C /* Covariance.cc */,
+				2B9FA44C0AD9DA0B0037D31C /* Covariance.h */,
+				2B9FA44D0AD9DA0B0037D31C /* EntreeSortie.cc */,
+				2BB5E92E0AE8551F004DD643 /* enum_bg.h */,
+				2B3417300D41427500EEB5D5 /* Fluide.h */,
+				2B9FA44E0AD9DA0B0037D31C /* Generateur.h */,
+				2B9FA4500AD9DA0B0037D31C /* Geometrie.h */,
+				2B2FC6760D3D3EE700A654FA /* Granulo.cc */,
+				2B2FC6740D3D32F500A654FA /* Granulo.h */,
+				2B9FA4510AD9DA0B0037D31C /* Grille.cc */,
+				2B9FA4520AD9DA0B0037D31C /* Grille.h */,
+				2B9FA45D0AD9DA3A0037D31C /* HGmod.h */,
+				2B6F6D090B03BBAC00F08078 /* Krigeage.h */,
+				2BD9CCA10D42EF13009A9C23 /* Lima.h */,
+				08FB7796FE84155DC02AAC07 /* main.cc */,
+				2B0DB7330B0EB3F3009D52A4 /* Messages.cc */,
+				2B0DB7320B0EB3F3009D52A4 /* Messages.h */,
+				2B9FA44A0AD9DA0B0037D31C /* MilieuPoreux.h */,
+				2B9FA45C0AD9DA3A0037D31C /* ModelesMelange.h */,
+				2B9FA4600AD9DA3A0037D31C /* Powell.h */,
+				2B9FA45E0AD9DA3A0037D31C /* Powell_def.h */,
+				2B9FA45F0AD9DA3A0037D31C /* Powell_inst.cc */,
+				2B9FA4610AD9DA3A0037D31C /* Pride.h */,
+				2BDE74060D4534550045B80A /* Revil.h */,
+				2B9FA4450AD9D9A80037D31C /* structHGmod.h */,
+				2BB5E9470AE856DD004DD643 /* utils_bg.cc */,
+				2BB5E9330AE8555E004DD643 /* utils_bg.h */,
+				2BB5E93C0AE855A0004DD643 /* utils_bg_fct.h */,
+				2BED3E241656F07400A8E91C /* Raymer.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* HGmod */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* HGmod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "HGmod" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGmod;
+			productInstallPath = "$(HOME)/bin";
+			productName = HGmod;
+			productReference = 8DD76F6C0486A84900D96B5E /* HGmod */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "INRS-ETE";
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "HGmod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* HGmod */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* HGmod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cc in Sources */,
+				2B9FA4540AD9DA0B0037D31C /* Covariance.cc in Sources */,
+				2B9FA4560AD9DA0B0037D31C /* EntreeSortie.cc in Sources */,
+				2B9FA45A0AD9DA0B0037D31C /* Grille.cc in Sources */,
+				2B9FA4650AD9DA3A0037D31C /* Powell_inst.cc in Sources */,
+				2BB5E9480AE856DD004DD643 /* utils_bg.cc in Sources */,
+				2B0DB7350B0EB3F3009D52A4 /* Messages.cc in Sources */,
+				2B2FC6770D3D3EE700A654FA /* Granulo.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"/usr/local/VTK/include/vtk-7.0",
+				);
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/usr/local/VTK/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lfftw3",
+					"-lfftw3_threads",
+					"-lvtkIOXML-7.0.1",
+					"-lvtkCommonDataModel-7.0.1",
+					"-lvtkCommonCore-7.0.1",
+				);
+				PRODUCT_NAME = HGmod;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"/usr/local/VTK/include/vtk-7.0",
+				);
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/usr/local/VTK/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lfftw3",
+					"-lfftw3_threads",
+					"-lvtkIOXML-7.0.1",
+					"-lvtkCommonDataModel-7.0.1",
+					"-lvtkCommonCore-7.0.1",
+				);
+				PRODUCT_NAME = HGmod;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = VTK;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lfftw3",
+					"-lfftw3_threads",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = VTK;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-lfftw3",
+					"-lfftw3_threads",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "HGmod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "HGmod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
